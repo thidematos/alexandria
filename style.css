@@ -1,0 +1,71 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+:root{
+    --fontPoppins: 'Poppins';
+    --fontRoboto: 'Roboto';
+    --Branco: white;
+    --Preto: rgba(0, 0, 0, 0.555);
+    --Vermelho: rgb(192, 88, 88);
+}
+
+body{
+    background-image: url(janko-ferlic-sfL_QOnmy00-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 2rem;
+}
+.main_header{
+    font: 700 1.5rem var(--fontRoboto);
+    border: 2px solid var(--Branco);
+    letter-spacing: 0.2rem;
+    padding: 0.6rem 0.8rem; 
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.76);
+    color: white;
+}
+
+.main_container{
+    width: 80%;
+    border: 2px solid var(--Branco);
+    background-color: var(--Branco);
+    padding: 1.5rem;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.288);
+}
+
+.container_p{
+    font: 400 1.4rem var(--fontRoboto);
+    color: rgba(0, 0, 0, 0.664);
+    text-align: justify;
+}
+
+.container_header{
+    font: 700 1.5rem var(--fontRoboto);
+    color: var(--Vermelho);
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+}
+
+.container_btn{
+    background-color: rgba(0, 0, 0, 0.842);
+    color: white;
+    border: none;
+    padding: 0.8rem;
+    border-radius: 6px;
+    font: 400 1rem var(--fontRoboto);
+    letter-spacing: 0.1rem;
+}
